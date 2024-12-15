@@ -2,103 +2,160 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frederick H. Ibarrola</title>
+    <title>Resume - Frederick Ibarrola</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            color: #2c3e50;
+        }
+        header p {
+            margin: 5px 0;
+            color: #7f8c8d;
+            font-size: 1rem;
+        }
+        header a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            font-size: 1.8rem;
+            color: #2c3e50;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #3498db;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .project {
+            margin-bottom: 20px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            border-radius: 5px;
+        }
+        .project-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #95a5a6;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .skills li {
+            background: #f0f4f8;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
-     <h1>FREDERICK H. IBARROLA</h1>
-     <p>#184 Brgy. Kumintang Ilaya, Batangas City</p>
-     <p>Contact Numbers: 09275096454</p>
-     <p>               (043) 984-6712</p>
-     <p>E-mail Address: frederick_ibarrola@yahoo.com</p>
-     
-     <h2>CAREER OBJECTIVE</h2>
-        <p>To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction, self-development and helps me to achieve personal as well as organization goals.</p>
+    <div class="container">
+        <header>
+            <h1>Frederick Ibarrola</h1>
+            <p>Junior Fullstack Developer</p>
+            
+            <p>Email: <a href="mailto:frederick_ibarrola@yahoo.com">frederick_ibarrola@yahoo.com</a> | GitHub: <a href="https://github.com/eriktong" target="_blank">github.com/eriktong</a></p>
+        </header>
 
-        <h2>EDUCATIONAL ATTAINMENT</h2>
+        <section>
+            <h2>Profile</h2>
+            <p>Ambitious Junior Fullstack Developer with experience in creating dynamic and user-friendly websites using HTML, CSS, JavaScript, PHP, and Laravel. Passionate about delivering high-quality projects and contributing to the success of a collaborative team. Seeking a challenging role to further develop technical and professional skills.</p>
+        </section>
 
-        <h3>Bootcamp: KodeGo Batch-WD31</h3>
-        <p>KodeGo</p>
-        <p>18th Floor, W Fifth, 5th Avenue, Taguig, 1630 Metro Manila</p>
-        <p>October 2022 – February 2023</p>
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Web Design</li>
+                <li>Front-End Development</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Back-End Development</li>
+                <li>PHP, Laravel</li>
+                <li>Database Administration</li>
+                <li>MySQL, MongoDB</li>
+                <li>Design Thinking</li>
+                <li>Problem-Solving</li>
+                <li>Project Management Tools</li>
+                <li>Strong Communication</li>
+            </ul>
+        </section>
 
-        <h3>Short Course: Safe Line Consultancy, Inc.</h3>
-        <p>(COSH) Construction Occupational Safety and Health</p>
-        <p>COSH No. 218-22-5468-15</p>
-        <p>Banaba South, Batangas city</p>
-        <p>May 19-23, 2015</p>
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <p class="project-title">SERAPHIM HRIS (2023)</p>
+                <p>Built a platform for employee management and database administration.<br>
+                <strong>Tools:</strong> Bootstrap, Laravel Filament, PHP, MySQL</p>
+            </div>
+            <div class="project">
+                <p class="project-title">SERAPHIM BEACH RESORT (2023)</p>
+                <p>Developed a reservation platform with a complete website for resort packages and information.<br>
+                <strong>Tools:</strong> HTML, CSS, JavaScript (Front-End), PHP, Laravel (Back-End), MySQL (Database)</p>
+            </div>
+        </section>
 
-    <h3>Tertiary: University of Batangas</h3>
-        <p>Hilltop, Batangas City</p>
-        <p>Associate in Health Science Education</p>
-        <p>2001-2003</p>
+        <section>
+            <h2>Education</h2>
+            <p>Fullstack Developer<br>
+            <strong>KodeGo Bootcamp - Batch WD-31 (2023)</strong></p>
+        </section>
 
-    <h3>Secondary: University of Batangas</h3>
-        <p>Hilltop, Batangas City</p>
-        <p>1997-2001</p>
-
-    <h3>Primary: St. Bridget’s College</h3>
-        <p>Batangas City</p>
-        <p>1997</p>
-
-    <h2>PERSONAL BACKGROUND</h2>
-        <p>Date of Birth: June 8, 1984</p>
-        <p>Place of Birth: Batangas City</p>
-        <p>Age: 39 years old</p>
-        <p>Sex: Male</p>
-        <p>Height: 5’11”</p>
-        <p>Weight: 120 lbs.</p>
-        <p>Civil Status: Married</p>
-        <p>Citizenship: Filipino</p>
-        <p>Name of Spouse: Maria D. Ibarrola</p>
-        <p>Name of Child: Matt Jacob D. Ibarrola</p>
-        <p>Name of Father: Alfredo C. Ibarrola (Deceased)</p>
-        <p>Name of Mother: Eleanor H. Ibarrola (Deceased)</p>
-
-    <h2>WORK EXPERIENCE</h2>
-
-    
-
-    <h2>Text Language Translator / Freelance Writer</h2>
-        <p>Freelance</p>
-        <p>November 11, 2017 to Present</p>
-
-    <h2>PAT Inspector OSP Fiber Optic (Saudi Telecom Company)</h2>
-        <p>Bazy Trading and Contracting Company Ltd.</p>
-        <p>Al Malaz, Riyadh 12841, Saudi Arabia</p>
-        <p>November 11, 2015 – November 11, 2017</p>
-
-    <h2>Quality Assurace Inspector (Globe Telecom Contractor)</h2>
-        <p>TESCOSI</p>
-        <p>Sampaloc, Metro Manila</p>
-        <p>October 2014 – October 2015</p>
-
-    <h2>FTTH Technician/ IBS (Saudi Telecom Company)</h2>
-        <p>Premier Technology Co. Ltd</p>
-        <p>P.O Box 61443</p>
-        <p>Riyadh - 11565, Kingdom of Saudi Arabia</p>
-        <p>July 1, 2012 – July 1, 2014</p>
-
-    <h2>Adsl, 3G, Wimax, LTE Installer/Repair (Globe Telecom Company)</h2>
-        <p>Arkitel Trading & Services</p>
-        <p>No. 575 Cynthia Arcade</p>
-        <p>DJPMM Access Road, Central Cuta</p>
-        <p>Batangas City</p>
-        <p>June 2008 – June 2012</p>
-
-    <h2>Central Supply Room Technician</h2>
-        <p>Saint Patrick’s Hospital Medical Center</p>
-        <p>Lopez Jaena Street, Batangas City</p>
-        <p>June 2007 – June 2008</p>
-
-        <p>I hereby certify that the above information is true and correct to the best of my knowledge and belief.</p>
-        
-        <p>Frederick H. Ibarrola</p>
-
-
-
-    
+        <footer class="footer">
+            <p>&copy; 2024 Frederick Ibarrola</p>
+        </footer>
+    </div>
 </body>
 </html>
