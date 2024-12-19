@@ -136,7 +136,7 @@ To run this project locally:
 
     Navigate into the project directory:
 
-    cd Portfolio-Website
+    cd Porfolio-Website
 
     Open the index.html file in your browser.
 
