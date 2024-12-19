@@ -61,7 +61,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/eriktong/Porolio-Website.git
+   git clone https://github.com/eriktong/Porfolio-Website.git
    Navigate into the project directory:
 
 cd Porfolio-Website
