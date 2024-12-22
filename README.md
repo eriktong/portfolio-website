@@ -90,6 +90,8 @@ This is the portfolio website of Frederick Ibarrola, a full-stack web developer 
 - AOS (Animate On Scroll) for animations
 
 ## Links to Projects
+Live Demo: [https://brilliant-kleicha-b5dfe4.netlify.app/](https://brilliant-kleicha-b5dfe4.netlify.app/)
+
 
 ### [Seraphim](https://adorable-maamoul-aa030d.netlify.app/)
 A beach resort website for El Nido, Palawan. View the live project or explore the GitHub repository.
@@ -145,3 +147,5 @@ Contact Information
 Feel free to contact me via the contact form on the website or at:
 
     Email: frederick_ibarrola@yahoo.com
+    Live Demo: [https://brilliant-kleicha-b5dfe4.netlify.app/](https://brilliant-kleicha-b5dfe4.netlify.app/)
+
