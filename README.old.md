@@ -1,151 +1,106 @@
-# Portfolio Website - Frederick Ibarrola
+# portfolio-website
 
-This is the portfolio website of Frederick Ibarrola, a full-stack web developer with a background in telecommunications. The website showcases various projects that demonstrate web development skills using HTML, CSS, JavaScript, and other modern web technologies.
+![Pages Deploy](https://github.com/eriktong/portfolio-website/actions/workflows/pages.yml/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/eriktong/portfolio-website) ![License](https://img.shields.io/badge/license-MIT-informational)
 
-## Features
+**Live Demo:** [https://eriktong.github.io/portfolio-website/](https://eriktong.github.io/portfolio-website/)
 
-- **Home**: Introduction and background of the developer.
-- **About**: Information about the developer, including a profile image and bio.
-- **Portfolio**: A showcase of the developer's web projects with links to the live websites and their corresponding GitHub repositories.
-- **Contact**: A contact form for potential clients or employers to reach out, along with an embedded Google Map showing the developer's location.
+> Short description: _Update this one-liner to summarize the app in a sentence._
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Font Awesome for icons
-- AOS (Animate On Scroll) for animations
-
-## Links to Projects
-
-### [Seraphim](https://adorable-maamoul-aa030d.netlify.app/)
-A beach resort website for El Nido, Palawan. View the live project or explore the GitHub repository.
-
-- [View Live](https://adorable-maamoul-aa030d.netlify.app/)
-- [GitHub Repository](https://github.com/eriktong/Beach-Resort.git)
-
-### [KodeLedger](https://courageous-biscuit-bda87a.netlify.app/)
-A blockchain platform for decentralized applications. View the live project or explore the GitHub repository.
-
-- [View Live](https://courageous-biscuit-bda87a.netlify.app/)
-- [GitHub Repository](https://github.com/eriktong/Kodeledger.git)
-
-### [KodeResto](https://transcendent-rabanadas-a6001e.netlify.app/)
-A fictional food establishment website showcasing a menu and restaurant features. View the live project or explore the GitHub repository.
-
-- [View Live](https://transcendent-rabanadas-a6001e.netlify.app/)
-- [GitHub Repository](https://github.com/eriktong/KodeResto.git)
-
-### [NewsGridWebsite](https://vermillion-malabi-d305ad.netlify.app)
-A sports news website that delivers updates, scores, and stats on various sports. View the live project or explore the GitHub repository.
-
-- [View Live](https://vermillion-malabi-d305ad.netlify.app)
-- [GitHub Repository](https://github.com/eriktong/NewsGridResources.git)
-
-### [Pig Game](https://ornate-beignet-d18bc4.netlify.app)
-A fun dice game where players roll to avoid rolling a 1 to win. View the live project or explore the GitHub repository.
-
-- [View Live](https://ornate-beignet-d18bc4.netlify.app)
-- [GitHub Repository](https://github.com/eriktong/pig_game.git)
-
-### [Resume](./resume_web/index.html)
-A web-based resume showcasing skills, education, and experience. View the live project.
-
-- [View Live](./resume_web/index.html)
-
-## Installation
-
-To run this project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/eriktong/Porfolio-Website.git
-   Navigate into the project directory:
-
-cd Porfolio-Website
-
-Open the index.html file in your browser.
-Here’s a sample README.md file for your portfolio website:
-
-# Portfolio Website - Frederick Ibarrola
-
-This is the portfolio website of Frederick Ibarrola, a full-stack web developer with a background in telecommunications. The website showcases various projects that demonstrate web development skills using HTML, CSS, JavaScript, and other modern web technologies.
+---
 
 ## Features
-
-- **Home**: Introduction and background of the developer.
-- **About**: Information about the developer, including a profile image and bio.
-- **Portfolio**: A showcase of the developer's web projects with links to the live websites and their corresponding GitHub repositories.
-- **Contact**: A contact form for potential clients or employers to reach out, along with an embedded Google Map showing the developer's location.
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Font Awesome for icons
-- AOS (Animate On Scroll) for animations
-
-## Links to Projects
-Live Demo: [https://brilliant-kleicha-b5dfe4.netlify.app/](https://brilliant-kleicha-b5dfe4.netlify.app/)
+- Clean starter with Static HTML/CSS/JS
+- Deployed on **GitHub Pages** via Actions
+- Production build output: `.`
+- Mobile-friendly layout _(if applicable)_
+- Routing-ready _(SPA)_  
 
 
-### [Seraphim](https://adorable-maamoul-aa030d.netlify.app/)
-A beach resort website for El Nido, Palawan. View the live project or explore the GitHub repository.
+---
 
-- [View Live](https://adorable-maamoul-aa030d.netlify.app/)
-- [GitHub Repository](https://github.com/eriktong/Beach-Resort.git)
+## Quick Start
 
-### [KodeLedger](https://courageous-biscuit-bda87a.netlify.app/)
-A blockchain platform for decentralized applications. View the live project or explore the GitHub repository.
+### Prerequisites
+- Node.js LTS (or none if pure static)
+- npm (bundled with Node)
 
-- [View Live](https://courageous-biscuit-bda87a.netlify.app/)
-- [GitHub Repository](https://github.com/eriktong/Kodeledger.git)
+### Local Dev
+```bash
+# install
+npm install
 
-### [KodeResto](https://transcendent-rabanadas-a6001e.netlify.app/)
-A fictional food establishment website showcasing a menu and restaurant features. View the live project or explore the GitHub repository.
+# start dev server
+npx serve .
+```
 
-- [View Live](https://transcendent-rabanadas-a6001e.netlify.app/)
-- [GitHub Repository](https://github.com/eriktong/KodeResto.git)
+### Build
+```bash
+(none)
+```
 
-### [NewsGridWebsite](https://vermillion-malabi-d305ad.netlify.app)
-A sports news website that delivers updates, scores, and stats on various sports. View the live project or explore the GitHub repository.
+> Build output goes to **`.`**.
 
-- [View Live](https://vermillion-malabi-d305ad.netlify.app)
-- [GitHub Repository](https://github.com/eriktong/NewsGridResources.git)
+---
 
-### [Pig Game](https://ornate-beignet-d18bc4.netlify.app)
-A fun dice game where players roll to avoid rolling a 1 to win. View the live project or explore the GitHub repository.
+## Deploy (GitHub Pages)
 
-- [View Live](https://ornate-beignet-d18bc4.netlify.app)
-- [GitHub Repository](https://github.com/eriktong/pig_game.git)
+This repo deploys using **Actions** on pushes to `master`.
 
-### [Resume](./resume_web/index.html)
-A web-based resume showcasing skills, education, and experience. View the live project.
+- Workflow: `.github/workflows/pages.yml`  
+- Public URL: **https://eriktong.github.io/portfolio-website/**  
+- SPA fallback: `404.html` is created during the workflow so React Router routes work on refresh.
 
-- [View Live](./resume_web/index.html)
+If something breaks:
+1. Verify the latest workflow run is green.
+2. For CRA, ensure `"homepage": "https://eriktong.github.io/portfolio-website/"` exists in `package.json`.
+3. For Vite, ensure `base: "/portfolio-website/"` in `vite.config.*`.
 
-## Installation
+---
 
-To run this project locally:
+## Screenshots
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/eriktong/Porfolio-Website.git
+> Put images under `docs/` and reference them here.
 
-    Navigate into the project directory:
+| Screen | Image |
+|---|---|
+| Home | ![Home](docs/screenshot-1.png) |
 
-    cd Porfolio-Website
+---
 
-    Open the index.html file in your browser.
+## Tech Stack
+- Static HTML/CSS/JS
+- HTML, CSS, JavaScript
+- GitHub Actions + GitHub Pages
 
-Contact Information
+---
 
-Feel free to contact me via the contact form on the website or at:
+## Project Structure (high level)
 
-    Email: frederick_ibarrola@yahoo.com
-    Live Demo: [https://brilliant-kleicha-b5dfe4.netlify.app/](https://brilliant-kleicha-b5dfe4.netlify.app/)
 
+---
+
+## Environment Variables
+> If none, delete this section. Otherwise, document them like:
+
+| Variable | Example | Required | Description |
+|---|---|---|---|
+| `VITE_API_URL` | `https://api.example.com` | No | API base URL |
+
+---
+
+## Roadmap / TODO
+- [ ] Add better screenshots
+- [ ] Fill in real description & features
+- [ ] Audit Lighthouse (performance, a11y, SEO)
+- [ ] Add tests (Vitest/Jest) _(optional)_
+- [ ] Add CI for lint/test _(optional)_
+
+---
+
+## License
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE).
+
+---
+
+## Maintainer
+- **Erik Tong** — feedback & issues via GitHub
