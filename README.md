@@ -1,8 +1,9 @@
 # portfolio-website
 
+**Live Demo:** https://brilliant-kleicha-b5dfe4.netlify.app/
+
 ![Pages Deploy](https://github.com/eriktong/portfolio-website/actions/workflows/pages.yml/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/eriktong/portfolio-website) 
 
-**Live Demo:** [https://eriktong.github.io/portfolio-website/](https://eriktong.github.io/portfolio-website/)
 
 > Personal portfolio website with projects, about, and contact.
 
